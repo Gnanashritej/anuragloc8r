@@ -9,8 +9,8 @@ legend {
 }
 
 .navbar {
-  background-color: #ad1d28;
-  border-color: #911821;
+  background-color: #330686;
+  border-color: #4b058d;
 }
 
 .navbar-brand {
@@ -90,5 +90,5 @@ a:hover {
 body {
   font-family: "Cabin", Arial, sans-serif;
   color: #fff;
-  background-color: #108a93;
+  background-color: #e9121d;
 }
