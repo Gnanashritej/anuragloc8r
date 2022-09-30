@@ -2,8 +2,8 @@
 const about = (req, res) => {
   res.render('generic-text',
     {
-      title: 'About Loc8r',
-      content: 'Loc8r was created to help people find places to sit down and get a bit of work done.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed lorem ac nisi dignissim accumsan. Nullam sit amet interdum magna. Morbi quis faucibus nisi. Vestibulum mollis purus quis eros adipiscing tristique. Proin posuere semper tellus, id placerat augue dapibus ornare. Aenean leo metus, tempus in nisl eget, accumsan interdum dui. Pellentesque sollicitudin volutpat ullamcorper.'
+      title: 'About Anurag University',
+      content: 'Anurag University, Hyderabad was established in the year 2020. The college is ranked 3rd among Best Infrastructure & Research Institutes in 2019. The institution offers undergraduate and postgraduate courses in the field of Engineering, Business Administration and Pharmacy.'
     }
   );
 };

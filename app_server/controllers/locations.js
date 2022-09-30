@@ -1,33 +1,47 @@
 const homelist = (req, res) => {
   res.render('locations-list',
     {
-      title: 'Loc8r - find a place to work with wifi',
+      title: 'Anurag University - Place where your dreams come true',
       pageHeader: {
-        title: 'Loc8r',
-        strapLine: 'Find places to work with wifi near you!'
+        title: 'Anurag University',
+        strapLine: 'Place where your dreams come true'
       },
       sidebar: "Looking for wifi and a seat? Loc8r helps you find places to work when out and about. Perhaps with coffee, cake or a pint? Let Loc8r help you find the place you're looking for.",
       locations: [
         {
-          name: 'Starcups',
-          address: '125 High Street, Reading, RG6 1PS',
+          name: 'D-Block',
+          address: 'Anurag University',
           rating: 3,
-          facilities: ['Hot drinks', 'Food', 'Premium wifi'],
+          facilities: ['CSE', 'AI', 'AIML','ECE','MECH'],
           distance: '100m'
         },
         {
-          name: 'Cafe Hero',
-          address: '125 High Street, Reading, RG6 1PS',
+          name: 'B-Block',
+          address: 'Anurag University',
           rating: 4,
-          facilities: ['Hot drinks', 'Food', 'Premium wifi'],
+          facilities: ['CHEM','PHARMA'],
           distance: '200m'
         },
         {
-          name: 'Burger Queen',
-          address: '125 High Street, Reading, RG6 1PS',
+          name: 'C-Block',
+          address: 'Anurag University',
           rating: 2,
-          facilities: ['Food', 'Premium wifi'],
+          facilities: ['CIVIL'],
           distance: '250m'
+        },
+        {
+          name: 'A-Block',
+          address: 'Anurag University',
+          rating: 5,
+          facilities: ['CSE','ADMINISTRATION','MECH','EEE'],
+          distance: '300m'
+        },
+        {
+          name: 'E-Block',
+          address: 'Anurag University',
+          rating: 5,
+          facilities: ['AI','AIML','ECE','MBA'],
+          distance: '400m'
         }
       ]
     }
@@ -37,19 +51,19 @@ const homelist = (req, res) => {
 const locationInfo = (req, res) => {
   res.render('location-info',
     {
-      title: 'Starcups',
+      title: 'D-Block',
        pageHeader: {
-        title: 'Loc8r',
+        title: 'Anurag University',
       },
       sidebar: {
         context: 'is on Loc8r because it has accessible wifi and space to sit down with your laptop and get some work done.',
         callToAction: 'If you\'ve been and you like it - or if you don\'t - please leave a review to help other people just like you.'
       },
       location: {
-        name: 'Starcups',
-        address: '125 High Street, Reading, RG6 1PS',
+        name: 'D-Block',
+        address: 'Anurag University',
         rating: 3,
-        facilities: ['Hot drinks', 'Food', 'Premium wifi'],
+        facilities: ['CSE', 'AI', 'AIML','ECE','MECH'],
         coords: {lat: 51.455041, lng: -0.9690884},
         openingTimes: [
           {
@@ -91,8 +105,8 @@ const locationInfo = (req, res) => {
 const addReview = (req, res) => {
   res.render('location-review-form',
     {
-      title: 'Review Starcups on Loc8r' ,
-      pageHeader: { title: 'Review Starcups' }
+      title: 'Review D-Block on Anurag University' ,
+      pageHeader: { title: 'Review D-Block' }
     }
   );
 };

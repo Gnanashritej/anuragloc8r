@@ -9,17 +9,17 @@ legend {
 }
 
 .navbar {
-  background-color: #330686;
+  background-color: #4b058d;
   border-color: #4b058d;
 }
 
 .navbar-brand {
   font-family: 'Lobster', cursive;
-  color: #fff;
+  color: rgb(221, 15, 15);
 }
 
 .card {
-  background-color: #469ea8;
+  background-color: #4b058d;
   padding: 1rem;
 }
 
