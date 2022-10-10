@@ -106,7 +106,7 @@ const addReview = (req, res) => {
   res.render('location-review-form',
     {
       title: 'Review D-Block on Anurag University' ,
-      pageHeader: { title: 'Review D-Block' }
+      pageHeader: { title: 'Feedback Form'}
     }
   );
 };
