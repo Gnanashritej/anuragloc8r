@@ -79,16 +79,22 @@ const locationInfo = (req, res) => {
         ],
         reviews: [
           {
-            author: 'Simon Holmes',
+            author: 'Gnana Shritej',
             rating: 5,
-            timestamp: '16 July 2013',
+            timestamp: '11 October 2021',
             reviewText: 'What a great place. I can\'t say enough good things about it.'
           },
           {
-            author: 'Charlie Chaplin',
+            author: 'Chetan Kumar',
             rating: 3,
-            timestamp: '16 June 2013',
-            reviewText: 'It was okay. Coffee wasn\'t great, but the wifi was fast.'
+            timestamp: '6 may 2021',
+            reviewText: 'This place was very good but wifi was very slow.'
+          },
+          {
+            author: 'Chandraditya',
+            rating: 3,
+            timestamp: '21 September 2020',
+            reviewText: 'This place in the college was very fine with full of greenery around.'
           }
         ]
       }
