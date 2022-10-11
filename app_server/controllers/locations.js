@@ -6,7 +6,7 @@ const homelist = (req, res) => {
         title: 'Anurag University',
         strapLine: 'Place where your dreams come true'
       },
-      sidebar: "Looking for wifi and a seat? Loc8r helps you find places to work when out and about. Perhaps with coffee, cake or a pint? Let Loc8r help you find the place you're looking for.",
+      sidebar: "Looking to fulfill your dreams Anurag University helps you find courses to join and how to get proceeded.If you visit the place don't forget to leave a feedback.",
       locations: [
         {
           name: 'D-Block',
