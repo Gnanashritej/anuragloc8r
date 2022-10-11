@@ -57,7 +57,7 @@ const locationInfo = (req, res) => {
       },
       sidebar: {
         context: 'is a place of Anurag University which has top Courses to learn and fulfill all of your dreams.',
-        callToAction: 'If you\'ve been and you like it - or if you don\'t - please leave a review to help other people just like you.'
+        callToAction: 'If you\'ve been and you like it - or if you don\'t - please leave a feedback to help other people just like you.'
       },
       location: {
         name: 'D-Block',
